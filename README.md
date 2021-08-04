@@ -110,6 +110,7 @@
 
 
 >答：
+```
 const p = new Promise(function(resolve,reject){
     resolve("hellow");
 }).then(function(value){ // 第一个then // 1
@@ -121,6 +122,7 @@ const p = new Promise(function(resolve,reject){
 }, function(err) {
   console.log('reject:' + err);
 });
+```
 执行结果：hellowlagouI 💗U
 
 10、请简述TypeScript与JavaScript之间的关系？
